@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css ">
+    <script src="https://kit.fontawesome.com/49fa56e081.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/328987446_718900416359178_4587413090322792221_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=v0gIPutgXgQAX8w9skV&_nc_ht=scontent.fsgn8-4.fna&oh=00_AfAXXm9hG1TFb_BtNfnprEG3OyqjeN-HpcHjFM_cMm6hAA&oe=649F0EFA" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Servic&Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"  ></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Best CEO and Co-Founder of Stasianery</p>
+                <h1>HI, i'm <span> Ngo Dac Minh </span> <br>from <span>VietNam</span></h1>
+            </div>
+        </div>
+    </div>
+<!-- ------------------------about----------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="download.png" class="picabout">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+                        elit. Nemo facilis vero corrupti recusandae quae.
+                        Molestiae quasi tempora vero omnis corporis? Mollitia
+                        dolore sit eius doloribus necessitatibus laborum quas. 
+                        Animi, rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. At soluta impedit doloremque earum corrupti aperiam in, consequuntur, cupiditate obcaecati consequatur beatae debitis nemo, sunt consectetur veritatis nisi recusandae sint quam et molestias dolor pariatur eius tempore. Voluptates atque, quia eligendi sunt nemo facere cum recusandae, odio placeat consequatur ea maiores pariatur doloremque quod labore saepe adipisci dolore molestias, est exercitationem? Mollitia, sunt. Aliquam deleniti vel soluta natus! Earum laudantium suscipit quaerat alias sequi inventore. Voluptas accusantium soluta deserunt? Assumenda aliquam molestias reiciendis illo, ullam repudiandae laudantium ex voluptatibus repellat consectetur ipsum autem explicabo aliquid quaerat vero nisi, ratione id nesciunt!
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Design app interfaces</li>
+                            <li><span>Web Developmen</span><br>Design stasianery web</li>
+                            <li><span>App development</span><br>Building Androi/iOs apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>CEO</span><br>Work at stasianery</li>
+                            <li><span>Donation</span><br>Help poor children</li>
+                            <li><span>App development</span><br>Building Androi/iOs apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2010-2011</span><br>Design app interfaces</li>
+                            <li><span>2011 2019</span><br>Design stasianery web</li>
+                            <li><span>2022-2023</span><br>Mac Dinh Chi highschool</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ------------------------servie------------------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+    </div>
+    <div class="services-list">
+        <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto deserunt quod nemo consequatur earum nam, architecto aliquid molestias dolores vel.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-regular fa-phone"></i>
+            <h2>Coder</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto deserunt quod nemo consequatur earum nam, architecto aliquid molestias dolores vel.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-facebook"></i>
+            <h2>Stasianery</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto deserunt quod nemo consequatur earum nam, architecto aliquid molestias dolores vel.</p>
+            <a href="#">Learn more</a>
+        </div>
+    </div>
+</div>
+<!-- ------------------portfolio---------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/344214290_6128295810591126_4218523448287745186_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=j8iQaTeImb4AX8dQIf-&_nc_ht=scontent.fsgn8-4.fna&oh=00_AfC3GpLeMM8_hpS79kos0S_mXnnFFhQzkiZBdmqoiXFGmA&oe=649F34DE" alt="">
+                <div class="layer">
+                    <h3>Our Course</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, ipsam.</p>
+                    <a href="#">
+                        <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/330599141_189166143748147_1100192385029614903_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=-lhKSf2PdFgAX-9Z-OT&_nc_ht=scontent.fsgn8-4.fna&oh=00_AfByMBxiGux9jfkA0NY5ouuoYNxhce3u6I7WgK51jmUpOw&oe=649FA9DC">
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, ipsam.</p>
+                    <a href="#">
+                        <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/331813489_564501242395590_1708249149336345917_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=wmOma5l20coAX_pLHmm&_nc_ht=scontent.fsgn8-4.fna&oh=00_AfB90BkTPuIUaYA9_CPpMPVV3WxJqvv0j7pjqG2_jAfhrA&oe=649F33B4">
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, ipsam.</p>
+                    <a href="#">
+                        <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- ---------------------------------contact---------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me </h1>
+                <p><i class="fa-sharp fa-solid fa-address-book"></i>backingdz@gmail.com</p>
+                <p><i class="fa-regular fa-phone"></i>0900831797</p>
+                <div class="social-icon">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="name" placeholder="Your Name" required >
+                    <input type="email" name="email" placeholder="Your Email" required >
+                    <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        Copyright @ Made with 💖 by AnhPhan
+    </div>
+</div>
+
+<script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        console.log(tabcontent)
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+
+            document.getElementById(tabname).classList.add("active-tab");
+        } 
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+    
+</body>
+</html>
